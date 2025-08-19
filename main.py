@@ -1,4 +1,4 @@
-\A#!/.*python3?$
+#!/usr/bin/python3
 import requests
 from bs4 import BeautifulSoup
 
@@ -16,5 +16,5 @@ def get_weather():
     else:
         print("Sorry, couldn't find the weather information.")
 
-if __name__ == ['\"]__main__['\"]:
+if __name__ == "__main__":
     get_weather()
